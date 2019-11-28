@@ -1,0 +1,28 @@
+* C:\users\jwl\My Documents\Projects\Clock\Power\LT8304_200Vout.asc
+V1 IN 0 12
+C1 N007 0 1µ
+L1 N001 Vsw 40µ Ipk=10 Rser=.085 Rpar=7k Cpar=5p
+L2 Gnd2 N005 .001 Rser=3.6
+D1 N005 OUT RFN5BM3S
+C2 OUT Gnd2 330n Rser=2m
+R1 Vsw N006 342K tol=1 pwr=0.1
+R2 N008 0 10K
+R3 N008 N009 100K
+Rload OUT Gnd2 11.3K
+XU1 N001 N007 N001 0 Vsw N006 N008 N009 LT8304
+C4 N001 0 18µ
+R4 N003 Vsw 100
+C3 N001 N003 2000µ
+D2 N001 N002 1N5378B
+D3 NC_01 N004 RFU01SM4S
+D4 N002 N004 EDZV20B
+C5 Gnd2 0 4.7n
+R6 N001 IN 1µ
+.model D D
+.lib C:\users\jwl\My Documents\LTspiceXVII\lib\cmp\standard.dio
+K1 L1 L2 1
+.tran 0 6m 0 6u startup
+* Input: 10V to 15V       Output: 190V @ 0.02A
+.lib LT8304.sub
+.backanno
+.end
