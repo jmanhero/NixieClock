@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 750315839
+D Flyback transformer
+$ENDCMP
+#
+$CMP LT8304-1
+D 100Vin No opt isolated Flyback
+K Flyback
+$ENDCMP
+#
+#End Doc Library
