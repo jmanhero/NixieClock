@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name NixieClock)(type Legacy)(uri /home/jwl/Documents/Projects/Clock/Board/PartLib/NixieClock.lib)(options "")(descr ""))
+  (lib (name HighVoltageBoard)(type Legacy)(uri ${KIPRJMOD}/HighVoltageBoard.lib)(options "")(descr ""))
 )

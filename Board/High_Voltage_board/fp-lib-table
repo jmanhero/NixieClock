@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name HighVoltageBoard)(type KiCad)(uri ${KIPRJMOD}/HighVoltageBoard.pretty)(options "")(descr ""))
+)
