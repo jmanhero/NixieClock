@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jason\Documents\GitHub\NixieClock\Board\High_Voltage_board\HighVoltageBoard.sch</source>
+    <date>12/31/2019 3:57:33 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HighVoltageBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x03_Female</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0E326</tstamp>
+    </comp>
+    <comp ref="Cin1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0F617</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF106CF</tstamp>
+    </comp>
+    <comp ref="Rled1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF10ECE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LT8304-1</value>
+      <footprint>HighVoltageBoard:LT8304-1</footprint>
+      <libsource lib="HighVoltageBoard" part="LT8304-1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF121CC</tstamp>
+    </comp>
+    <comp ref="J_enable1">
+      <value>EN_Header</value>
+      <footprint>Connector:FanPinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF157F0</tstamp>
+    </comp>
+    <comp ref="Cint1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF18410</tstamp>
+    </comp>
+    <comp ref="Rtc1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1AD40</tstamp>
+    </comp>
+    <comp ref="Rref1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1B8B7</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>750315839</value>
+      <footprint>HighVoltageBoard:750315839</footprint>
+      <libsource lib="HighVoltageBoard" part="750315839" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF23960</tstamp>
+    </comp>
+    <comp ref="Rfb1">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF24B88</tstamp>
+    </comp>
+    <comp ref="Rtrim1">
+      <value>100K</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF26349</tstamp>
+    </comp>
+    <comp ref="Csnubber1">
+      <value>200n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF2DBC8</tstamp>
+    </comp>
+    <comp ref="Rsnubber1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF2EA9C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_PowerDI-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF30438</tstamp>
+    </comp>
+    <comp ref="Cout1">
+      <value>330n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF30A20</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>190K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF31036</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF31A2A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Female</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF31E78</tstamp>
+    </comp>
+    <comp ref="Cint2">
+      <value>4.7n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0484D1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x01_MountingPin" description="Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0D9A2A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x01_MountingPin" description="Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0DA126</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x01_MountingPin" description="Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0DA825</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x01_MountingPin" description="Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0DABA0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x01_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HighVoltageBoard" part="750315839">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">750315839</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HighVoltageBoard" part="LT8304-1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT8304-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN/UVLO" type="input"/>
+        <pin num="2" name="INTVcc" type="input"/>
+        <pin num="3" name="Vin" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="SW" type="openCol"/>
+        <pin num="6" name="Rfb" type="input"/>
+        <pin num="7" name="Rref" type="input"/>
+        <pin num="8" name="TC" type="input"/>
+        <pin num="9" name="GndPad" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="HighVoltageBoard">
+      <uri>C:\Users\Jason\Documents\GitHub\NixieClock\Board\High_Voltage_board/HighVoltageBoard.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="Rled1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="/Vout">
+      <node ref="Cout1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Csnubber1-Pad2)">
+      <node ref="Csnubber1" pin="2"/>
+      <node ref="Rsnubber1" pin="1"/>
+    </net>
+    <net code="5" name="GNDA">
+      <node ref="J2" pin="3"/>
+      <node ref="Cint2" pin="1"/>
+      <node ref="Cout1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J3-PadMP)">
+      <node ref="J3" pin="MP"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J4-PadMP)">
+      <node ref="J4" pin="MP"/>
+    </net>
+    <net code="10" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J5-PadMP)">
+      <node ref="J5" pin="MP"/>
+    </net>
+    <net code="12" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J6-PadMP)">
+      <node ref="J6" pin="MP"/>
+    </net>
+    <net code="14" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="J_enable1" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="Rref1" pin="1"/>
+      <node ref="Rled1" pin="2"/>
+      <node ref="Cint1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Cin1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Cint2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J_enable1-Pad2)">
+      <node ref="J_enable1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Cint1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="Cint1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(Rtc1-Pad1)">
+      <node ref="Rtc1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="26" name="Net-(Rfb1-Pad1)">
+      <node ref="Rfb1" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="27" name="Net-(Rfb1-Pad2)">
+      <node ref="Rtrim1" pin="1"/>
+      <node ref="Rfb1" pin="2"/>
+    </net>
+    <net code="28" name="/SW">
+      <node ref="Rsnubber1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="Rtrim1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="29" name="Net-(Rtrim1-Pad3)">
+      <node ref="Rtrim1" pin="3"/>
+    </net>
+    <net code="30" name="/Vin">
+      <node ref="Csnubber1" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="Cin1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J_enable1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Rref1-Pad2)">
+      <node ref="Rref1" pin="2"/>
+      <node ref="Rtc1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+  </nets>
+</export>
